@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#feffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDivider">#e3e2e7</color>
+    <color name="colorBackGroundPrimary">#feffff</color>
+    <color name="colorTips">#4f4f4f</color>
+    <color name="colorTextColor">#feffff</color>
+    <color name="colorTabBacGround">#f6f6f6</color>
+    <color name="colorToolBarGround">#f6f6f6</color>
+    <color name="colorTextStr">#516691</color>
+    <color name="colorSubmit">#d33a31</color>
+    <color name="colorTextPrimary">#a4a4a8</color>
+    <color name="colorToolBarText">#535353</color>
+    <color name="colorSecurityBtn">#d33a31</color>
+    <color name="colorTextFill">#d33a31</color>
+    <color name="colorTabText">#535353</color>
+
+</resources>

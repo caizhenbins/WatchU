@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WatchU</string>
+    <string name="setting">设置</string>
+    <string name="sample_device_admin">设备管理器</string>
+    <string name="admin_description">设备管理器</string>
+    <string name="add_admin_extra_app_text">开启用户管理员权限才可以获得本系统所有服务</string>
+
+</resources>

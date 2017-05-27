@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/DIMEN_105PX">
+
+    <!--用户头像-->
+    <ImageView
+        android:id="@+id/user_order_item_logon"
+        android:layout_width="@dimen/DIMEN_50PX"
+        android:layout_height="@dimen/DIMEN_50PX"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/DIMEN_32PX"/>
+
+
+    <!--用户名-->
+    <TextView
+        android:id="@+id/userr_order_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蔡振斌"
+        android:textSize="@dimen/DIMEN_25PX"
+        android:textColor="@color/colorTips"
+        android:layout_marginLeft="@dimen/DIMEN_16PX"
+        android:layout_marginStart="@dimen/DIMEN_16PX"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/user_order_item_logon"
+        android:layout_toEndOf="@+id/user_order_item_logon" />
+
+    <!--更多-->
+    <ImageView
+        android:id="@+id/user_order_item_more"
+        android:layout_width="@dimen/DIMEN_50PX"
+        android:layout_height="@dimen/DIMEN_50PX"
+        android:src="@mipmap/more_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.inbin.watchu.MainActivity">
+
+    <!--导航栏-->
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorTabBacGround"
+        android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="位置"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:textColor="@color/colorToolBarText"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:weightSum="11"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_weight="10"
+            android:id="@+id/main_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e1e1e1"/>
+
+        <android.support.design.widget.TabLayout
+            android:layout_weight="1"
+            android:id="@+id/main_tab"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/colorTabBacGround"
+            app:tabMode="fixed"
+            app:tabIndicatorHeight="0dp"
+            app:tabGravity="fill"/>
+    </LinearLayout>
+
+</LinearLayout>

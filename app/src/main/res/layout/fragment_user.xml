@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/DIMEN_32PX"
+    android:background="#eaeaea">
+
+    <!--用户-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"
+        android:layout_marginTop="@dimen/DIMEN_64PX"/>
+<RelativeLayout
+    android:id="@+id/user_layout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/DIMEN_150PX"
+    android:background="#fff">
+
+    <!--用户头像-->
+    <ImageView
+        android:id="@+id/user_order_item_logon"
+        android:layout_width="@dimen/DIMEN_120PX"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:background="#000"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/DIMEN_32PX"/>
+
+
+    <!--用户名-->
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蔡振斌"
+        android:textSize="@dimen/DIMEN_30PX"
+        android:textColor="#000"
+        android:layout_marginLeft="@dimen/DIMEN_32PX"
+        android:layout_marginStart="@dimen/DIMEN_32PX"
+        android:layout_gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/user_order_item_logon"
+        android:layout_toEndOf="@+id/user_order_item_logon" />
+
+</RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"
+        android:layout_marginTop="@dimen/DIMEN_64PX"/>
+    <!--设置相关-->
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/user_security_recycleview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"
+        android:layout_marginTop="@dimen/DIMEN_64PX"/>
+
+    <!--设置中心-->
+    <RelativeLayout
+        android:id="@+id/user_setting_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_105PX"
+        android:background="#fff">
+
+        <!--setting icon-->
+        <ImageView
+            android:id="@+id/user_setting"
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="@dimen/DIMEN_40PX"
+            android:src="@mipmap/setting"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/DIMEN_32PX"/>
+
+
+        <!--用户名-->
+        <TextView
+            android:id="@+id/userr_setting_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting"
+            android:textSize="@dimen/DIMEN_25PX"
+            android:textColor="#000"
+            android:layout_marginLeft="@dimen/DIMEN_16PX"
+            android:layout_marginStart="@dimen/DIMEN_16PX"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/user_setting"
+            android:layout_toEndOf="@+id/user_setting" />
+
+
+        <!--更多-->
+        <ImageView
+            android:id="@+id/user_order_item_more"
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="@dimen/DIMEN_50PX"
+            android:src="@mipmap/more_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"/>
+
+
+
+</LinearLayout>

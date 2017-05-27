@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_security"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.inbin.watchu.activities.UserSecurityActivity">
+
+
+
+    <!--导航栏-->
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorTabBacGround"
+        android:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/security_back"
+            android:layout_width="@dimen/DIMEN_80PX"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:src="@mipmap/back"
+            android:layout_gravity="left|center_vertical"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="账户与安全"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:textColor="@color/colorToolBarText"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <Button
+        android:id="@+id/security_change_password"
+        android:layout_width="@dimen/DIMEN_400PX"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_128PX"
+        android:text="修改账户密码"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/security_button_shape"/>
+
+    <Button
+        android:id="@+id/security_change_phone"
+        android:layout_width="@dimen/DIMEN_400PX"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_32PX"
+        android:text="修改安全手机"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/security_button_shape"/>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/DIMEN_120PX"
+    android:background="#fff">
+
+
+    <Button
+        android:id="@+id/lock_now_send_message"
+        android:layout_width="@dimen/DIMEN_400PX"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_120PX"
+        android:text="发送短信一键锁屏"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/security_button_shape"/>
+
+    <Button
+        android:id="@+id/lock_now_send_true"
+        android:layout_width="@dimen/DIMEN_400PX"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_32PX"
+        android:text="网络发送一键锁屏"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/security_button_shape"/>
+
+    <Button
+        android:id="@+id/lock_now_send_false"
+        android:layout_width="@dimen/DIMEN_400PX"
+        android:layout_height="@dimen/DIMEN_100PX"
+        android:layout_marginTop="@dimen/DIMEN_32PX"
+        android:text="网络取消一键锁屏"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/security_button_shape"/>
+
+</LinearLayout>

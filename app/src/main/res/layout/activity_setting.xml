@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaeaea"
+    tools:context="com.inbin.watchu.activities.SettingActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_120PX"
+        android:elevation="4dp"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/setting_back"
+            android:layout_width="@dimen/DIMEN_100PX"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:src="@mipmap/back"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical|left"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <!--账户安全-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"
+        android:layout_marginTop="@dimen/DIMEN_64PX"/>
+    <RelativeLayout
+        android:id="@+id/user_security"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="@dimen/DIMEN_105PX">
+
+
+        <!--tips-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账户与安全"
+            android:textSize="@dimen/DIMEN_25PX"
+            android:textColor="@color/colorTips"
+            android:layout_marginLeft="@dimen/DIMEN_32PX"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true" />
+
+
+        <!--更多-->
+        <ImageView
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="@dimen/DIMEN_50PX"
+            android:src="@mipmap/more_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"/>
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"
+        android:layout_marginTop="@dimen/DIMEN_64PX"/>
+    <RelativeLayout
+        android:id="@+id/setting_help_replay"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="@dimen/DIMEN_105PX">
+
+
+        <!--用户名-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帮助与反馈"
+            android:textSize="@dimen/DIMEN_25PX"
+            android:textColor="@color/colorTips"
+            android:layout_marginLeft="@dimen/DIMEN_32PX"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true" />
+
+
+        <!--更多-->
+        <ImageView
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="@dimen/DIMEN_50PX"
+            android:src="@mipmap/more_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"/>
+
+    <RelativeLayout
+        android:id="@+id/setting_about"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="@dimen/DIMEN_105PX">
+
+
+        <!--用户名-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于WatchU"
+            android:textSize="@dimen/DIMEN_25PX"
+            android:textColor="@color/colorTips"
+            android:layout_marginLeft="@dimen/DIMEN_32PX"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true" />
+
+
+        <!--更多-->
+        <ImageView
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="@dimen/DIMEN_50PX"
+            android:src="@mipmap/more_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="#b4b3b7"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/setting_admin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_height="@dimen/DIMEN_105PX">
+
+
+        <!--用户名-->
+        <TextView
+            android:id="@+id/setting_admin_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置用户管理器"
+            android:textSize="@dimen/DIMEN_25PX"
+            android:textColor="@color/colorTips"
+            android:layout_marginLeft="@dimen/DIMEN_32PX"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true" />
+
+        <!--更多-->
+        <ImageView
+            android:layout_width="@dimen/DIMEN_50PX"
+            android:layout_height="@dimen/DIMEN_50PX"
+            android:src="@mipmap/more_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/setting_exit"
+        android:layout_width="@dimen/DIMEN_600PX"
+        android:layout_height="@dimen/DIMEN_70PX"
+        android:layout_marginTop="@dimen/DIMEN_32PX"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textColor="@color/colorTextColor"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logon_submit_shape"/>
+
+
+</LinearLayout>
