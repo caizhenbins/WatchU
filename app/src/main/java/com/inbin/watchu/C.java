@@ -1,5 +1,7 @@
 package com.inbin.watchu;
 
+import android.widget.TextView;
+
 /**
  * Created by InBin time: 2017/5/27.
  * Author: caizhenbin
@@ -8,4 +10,5 @@ package com.inbin.watchu;
  */
 
 public class C {
+    private TextView tv;
 }
